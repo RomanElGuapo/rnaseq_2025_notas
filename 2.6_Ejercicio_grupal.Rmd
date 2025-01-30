@@ -1,0 +1,16 @@
+---
+title: "2.6_Ejercicio_grupal"
+author: "Ángel Román Zamora López"
+date: "2025-01-30"
+output: pdf_document
+---
+
+# AnVIL
+
+Escogí este paquete porque me llamó la atención que en la sección de build, la página marcaba un error, a lo que le comenté al profesor y nos explicó que esto era compun en paquetes que dependían de la conexión con un servidor remoto, siendo que estos pueden no estar disponibles todo el tiempo y dando lugar a los errores marcados por bioconductor.
+
+No tiene preguntas hechas por los usuarios, por lo cual no hay respuestas.
+
+No tiene un rango alto en cantidad de descargas.
+
+Con este paquete pudimos observar cómo se ve alguno no tan recomendable para usar.
