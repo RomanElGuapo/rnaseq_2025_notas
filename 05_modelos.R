@@ -26,6 +26,22 @@ vd <- ExploreModelMatrix::VisualizeDesign(
 ## Veamos las imágenes
 cowplot::plot_grid(plotlist = vd$plotlist)
 
+## Usaremos shiny otra ves
+app <- ExploreModelMatrix(
+    sampleData = sampleData,
+    designFormula = ~ genotype + treatment
+)
+if (interactive()) shiny::runApp(app)
+
+mat2 <- with(
+    sampleData,
+    model.matrix(~ genotype + tratment)
+    )
+mat2
+sampleData
+
+cbind(mat2,sampleData)
+colnames(mat2)
 
 ## ----EMM_example1_interactive, eval = FALSE-------------------
 # ## Usaremos shiny otra ves
